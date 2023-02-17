@@ -1,0 +1,123 @@
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background: var(--color-grey-2);
+}
+body .divContainer{
+    width: 90%;
+    max-width: 784px;
+    height: 100%;
+}
+body .divContainer header{
+    width: 100%;
+    height: 125px;
+    flex-direction: column;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+body .divContainer header .lefth{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+body .divContainer header .lefth .divImg{
+    margin-left: 5%;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    border: 2px solid var(--color-brand-2);
+    overflow: hidden;
+}
+body .divContainer header .lefth .divImg img{
+    height: 80px;
+}
+body .divContainer header .pName{
+    font-size: var(--size-16px-rem);
+    max-width: 50%;
+    font-weight: var(--font-w7);
+    color: var(--color-grey-7);
+    font-family: var(--font-primary);
+    margin-left: 20px;
+}
+body .divContainer header .btnHome{
+    align-self: flex-end;
+    margin-right: 5%;
+    width: 169px;
+    height: 38px;
+    border-radius: var(--border-r8);
+    border: none;
+    font-size: var(--size-14px-rem);
+    font-weight: var(--font-w6);
+    color: var(--color-grey-7);
+    font-family: var(--font-primary);
+    background: var(--color-grey-4);
+    justify-self: flex-end;
+    cursor: pointer;
+}
+body .divContainer main{
+    width: 100%;
+    margin-top: 70px;
+    display: flex;
+    gap: 28px;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+body .divContainer main ul{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 22px;
+    justify-content: space-around;
+}
+body .divContainer main ul li{
+    width: 381px;
+    height: 243px;
+}
+body .divContainer main ul li .card{
+    max-width: 100%;
+    height: 243px;
+    border-radius: var(--border-r8);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px 27px; 
+    box-sizing: border-box;
+    border: 2px solid var(--color-grey-4);  
+}
+body .divContainer main ul li .card:hover{
+    border: 2px solid var(--color-grey-7);  
+}
+body .divContainer main ul li .card .pTitle{
+    font-weight: var(--font-w5);
+    font-size: var(--size-20px-rem);
+    color: var(--color-grey-7);
+    font-family: var(--font-primary);
+}
+body .divContainer main ul li .card .pText{
+    font-weight: var(--font-w4);
+    font-size: var(--size-14px-rem);
+    line-height: 150%;
+    color: var(--color-grey-6);
+    font-family: var(--font-primary);
+}
+body .divContainer main ul li .card .btnOpen{
+    width: 93px;
+    height: 28px;
+    border-radius: var(--border-r4);
+    border: 1px solid var(--color-grey-7);
+    font-weight: var(--font-w5);
+    font-size: var(--size-14px-rem);
+    color: var(--color-grey-7);
+    font-family: var(--font-primary);
+    background: none;
+    cursor: pointer;
+}
+body .divContainer main ul li .card .btnOpen:hover{
+    border: 1px solid var(--color-brand-2);
+    background: var(--color-brand-2);
+}

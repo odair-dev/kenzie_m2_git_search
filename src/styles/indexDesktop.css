@@ -1,0 +1,36 @@
+@media(min-width:1024px){
+    body{
+        width: 100%;
+        height: 100vh;
+    }
+    body .mainContainer{
+        flex-direction: row;
+    }
+    body .mainContainer .divLeft{
+        width: 50%;
+        height: 100%;
+        padding-left: 0;
+        justify-content: flex-start;
+    }
+    body .mainContainer .divLeft .titleLeft{
+        margin: 32.23% 0 0 21.45%;
+    }
+    body .mainContainer .divLeft .textoLeft{
+        max-width: 431px;
+        margin: 5.26% 17.33% 0 21.45%;
+        font-size: var(--size-20px-rem);  
+    }
+    body .mainContainer .divRigth{
+        width: 50%;
+        height: 100%;
+        padding-left: 0;
+    }
+    body .mainContainer .divRigth .titleRigth{
+        margin: 33.37% 0 0 26.85%;
+        max-width: 36%;
+    }
+    body .mainContainer .divRigth form{
+        margin: 6.39% 0 0 26.85%;
+        width: 36%;
+    }
+}

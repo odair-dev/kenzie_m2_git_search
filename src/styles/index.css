@@ -1,0 +1,84 @@
+body{
+    width: 100vw;
+    height: 100vh;
+}
+body .mainContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+body .mainContainer .divLeft{
+    width: 100%;
+    height: 30%;
+    padding-left:10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background: var(--color-brand-1);
+}
+body .mainContainer .divLeft .titleLeft{
+    font-family: var(--font-primary);
+    font-weight: var(--font-w6);
+    font-size: var(--size-32px-rem);
+    color: var(--color-grey-7);
+}
+body .mainContainer .divLeft .textoLeft{
+    max-width: 80%;
+    font-weight: var(--font-w4);
+    font-size: var(--size-14px-rem);
+    font-family: var(--font-primary);
+    color: var(--color-grey-7);
+    line-height: 150%;
+}
+body .mainContainer .divRigth{
+    width: 100%;
+    height: 70%;
+    padding-left: 10%;
+    display: flex;
+    flex-direction: column;
+    background: var(--color-grey-2);
+}
+body .mainContainer .divRigth .titleRigth{
+    margin: 10% 0 10% 0;
+    max-width: 80%;
+    font-family: var(--font-primary);
+    font-weight: var(--font-w5);
+    font-size: var(--size-20px-rem);
+    color: var(--color-grey-7);   
+}
+body .mainContainer .divRigth form{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+body .mainContainer .divRigth form .lblSearch{
+    font-family: var(--font-primary);
+    font-weight: var(--font-w5);
+    font-size: var(--size-14px-rem);
+    color: var(--color-grey-7);
+}
+body .mainContainer .divRigth form #inputSearch{
+    margin-top: 1rem;
+    margin-bottom: 1.25rem;
+    height: 38px;
+    font-weight: var(--font-w4);
+    font-size: var(--size-14px-rem);
+    font-family: var(--font-primary);
+    background: var(--color-grey-1);
+    color: var(--color-grey-7);
+    padding-left: 13px;
+    border-radius: var(--border-r4);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+}
+body .mainContainer .divRigth form .btnSearch{
+    height: 38px;
+    font-weight: var(--font-w5);
+    font-size: var(--size-14px-rem);
+    font-family: var(--font-primary);
+    background: var(--color-brand-2);
+    border-radius: var(--border-r4);
+    border: none;
+    color: var(--color-grey-7);
+    cursor: pointer;
+}

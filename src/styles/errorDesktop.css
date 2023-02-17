@@ -1,0 +1,31 @@
+@media(min-width:1024px){
+    body main{
+        flex-direction: row;
+    }
+    body main .left{
+        width: 50%;
+        height: 100%;
+        display: block;
+    }
+    body main .rigth{
+        width: 50%;
+        height: 100%;
+        padding-top: 179px;
+        align-items: flex-start;
+        justify-content: flex-end;
+    }
+    body main .rigth img{
+        width: 421px;
+        height: 377px;
+    }
+    body main .left .pTitle{
+        margin-top: 268.6px;
+    }
+    body main .left .pText{
+        width: 342px;
+        text-align: start;
+    }
+    body main .left .btnHome{
+        width: 342px;
+    }
+}

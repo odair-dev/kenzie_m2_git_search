@@ -1,0 +1,25 @@
+@media(min-width:1024px){
+    body .divContainer{
+        width: 784px;
+    }
+    body .divContainer header{
+        height: 80px;
+        flex-direction: row;
+        margin-top: 61px; 
+    }
+    body .divContainer header .lefth{
+        height: 100%;
+        width: 70%;
+    }
+    body .divContainer header .lefth .divImg{
+        margin-left: 0;
+    }
+    body .divContainer header .pName{
+        font-size: var(--size-24px-rem);
+        max-width: none;
+    }
+    body .divContainer header .btnHome{
+        align-self: center;
+        margin-right: 0;
+    }
+}
